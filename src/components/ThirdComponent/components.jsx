@@ -85,12 +85,18 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: 380px) {
+    p {
+      font-size: 12px;
+    }
     a {
       font-size: 13px;
     }
   }
 
   @media (max-width: 300px) {
+    p {
+      font-size: 12px;
+    }
     a {
       font-size: 12px;
     }
