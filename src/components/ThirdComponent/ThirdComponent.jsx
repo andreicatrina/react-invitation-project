@@ -40,11 +40,9 @@ export const ThirdComponent = () => {
             <br />
             Va rugam sa ne confirmati prezenta dumneavoastra pana la data de 15
             iunie 2023, la numerele de telefon <br />
-            <span>
-              0735040978-Cosmin
-              <br />
-              <span>0726509391-Adela</span>
-            </span>
+            <a href="tel:0735040978">0735040978-Cosmin</a>
+            <br />
+            <a href="tel:0726509391">0726509391-Adela</a>
           </p>
         </TextContainer>
       </ThirdComponentContainer>

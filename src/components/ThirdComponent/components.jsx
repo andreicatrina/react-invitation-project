@@ -36,8 +36,10 @@ export const TextContainer = styled.div`
     margin: 0;
     font-size: 20px;
 
-    span {
+    a {
       font-weight: 500;
+      text-decoration: none;
+      color: #ff7a7a;
     }
   }
 
@@ -47,8 +49,10 @@ export const TextContainer = styled.div`
       margin: 0;
       font-size: 16px;
 
-      span {
+      a {
         font-weight: 500;
+        text-decoration: none;
+        color: #ff7a7a;
       }
     }
   }
@@ -58,8 +62,10 @@ export const TextContainer = styled.div`
       margin: 0;
       font-size: 16px;
 
-      span {
+      a {
         font-weight: 500;
+        text-decoration: none;
+        color: #ff7a7a;
       }
     }
   }
@@ -70,20 +76,22 @@ export const TextContainer = styled.div`
       margin: 0;
       font-size: 14px;
 
-      span {
+      a {
         font-weight: 500;
+        text-decoration: none;
+        color: #ff7a7a;
       }
     }
   }
 
   @media (max-width: 380px) {
-    p {
+    a {
       font-size: 13px;
     }
   }
 
   @media (max-width: 300px) {
-    p {
+    a {
       font-size: 12px;
     }
   }
